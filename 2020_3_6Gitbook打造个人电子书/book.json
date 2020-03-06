@@ -1,0 +1,35 @@
+{
+    "title": "试验",
+    "description": "还是试验！",
+    "author": "WillCAI",
+    "language": "zh-hans",
+    "root": ".",
+
+    "plugins": [
+        "donate",
+        "github-buttons@2.1.0",
+        "edit-link"
+    ],
+
+    "pluginsConfig": {
+        "donate": {
+            "wechat": "https://WillCAI2020.github.io/images/wechatpay.png",
+            "alipay": "",
+            "title": "",
+            "button": "打赏",
+            "alipayText": "",
+            "wechatText": "微信打赏"
+        },
+        "github-buttons": {
+            "repo": "WillCAI2020/网站",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        },
+        "edit-link": {
+            "base": "https://github.com/WillCAI2020/网站/gitbook",
+            "label": "Edit This Page"
+        }
+    }
+}
